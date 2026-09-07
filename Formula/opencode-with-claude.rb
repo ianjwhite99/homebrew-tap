@@ -1,14 +1,14 @@
 # Homebrew formula for opencode-with-claude.
 #
-# The `url` and `sha256` lines are rewritten automatically by
-# scripts/update-homebrew-formula.sh from the Release workflow after each
-# npm publish, then mirrored to the ianjwhite99/homebrew-tap repository
-# (brew tap ianjwhite99/tap). Do not edit them by hand.
+# The `url` and `sha256` lines are rewritten automatically by the Release
+# workflow in ianjwhite99/opencode-with-claude after each npm publish
+# (scripts/update-homebrew-formula.sh in that repository). Do not edit them
+# by hand.
 class OpencodeWithClaude < Formula
   desc "OpenCode plugin to use your Claude Max subscription via Meridian proxy"
   homepage "https://github.com/ianjwhite99/opencode-with-claude"
-  url "https://registry.npmjs.org/opencode-with-claude/-/opencode-with-claude-1.9.5.tgz"
-  sha256 "17b2f4932c73746397b6213248880241b99711b12b474d9668a95a52c47626b4"
+  url "https://registry.npmjs.org/opencode-with-claude/-/opencode-with-claude-1.10.0.tgz"
+  sha256 "a02756b412ff37ec724a077d1c001bd03122b76771523dfe6942527f1c3e390a"
   license "MIT"
 
   depends_on "node"
