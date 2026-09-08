@@ -7,8 +7,8 @@
 class OpencodeWithClaude < Formula
   desc "OpenCode plugin to use your Claude Max subscription via Meridian proxy"
   homepage "https://github.com/ianjwhite99/opencode-with-claude"
-  url "https://registry.npmjs.org/opencode-with-claude/-/opencode-with-claude-1.10.0.tgz"
-  sha256 "a02756b412ff37ec724a077d1c001bd03122b76771523dfe6942527f1c3e390a"
+  url "https://registry.npmjs.org/opencode-with-claude/-/opencode-with-claude-1.10.1.tgz"
+  sha256 "52096d5e6fd666c22a37f3a197121d9f9a8f6d4ff6a517ab9ddb2484a4a10610"
   license "MIT"
 
   depends_on "node"
